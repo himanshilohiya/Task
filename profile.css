@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html,
+body {
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(to right, #2a2b2c 10%, #356183 33%, #2a2b2c);
+}
+
+.typing-demo {
+    width: 24ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2em;
+    text-shadow: 20%;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-right-color: transparent;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.skills {
+    font-size: 50px;
+    margin-left: 70px;
+   
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.skill_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.skill_list1 {
+    padding: 80px 70px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    margin: 60px;
+    overflow: hidden;
+
+}
+
+
+
+.skill_list2 {
+    padding: 80px 80px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    margin: 60px;
+
+}
+
+.skill_list3 {
+    padding: 80px 80px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    margin: 60px;
+
+}
+
+.skill_container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.skill_list4 {
+    padding: 80px 70px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    margin: 60px;
+
+}
+
+.skill_list5 {
+    padding: 80px 80px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+    margin: 60px;
+}
+.experience
+{
+    font-size: 50px;
+    height:200px;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    margin-top: 10px;
+    text-align: center;
+    background: linear-gradient(to right, #2a2b2c 10%, #356183 33%, #2a2b2c); 
+    padding: 80px 100px;
+}
+h4{
+    margin-top: -30px;
+}
+.list{
+    font-size: 20px;
+    color:white;
+    margin:40px 20px;
+    list-style-type: none;
+}
+.about
+{
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    margin-top: 40px;
+    text-align: center;   
+}
+.name
+{
+    font-size: 25px;
+    font-family: cursive;
+    margin-top: 25px;
+    padding: 50px 100px;
+}
+.contact
+{
+    
+    font-size: 50px;
+    height:400px;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    margin-top: 40px;
+    text-align: center;
+    background: linear-gradient(to right, #2a2b2c 10%, #356183 33%, #2a2b2c); 
+    padding: 30px;
+}
+.whatever
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+.fas
+{
+    display:flex;
+    justify-content: flex-start;
+    margin: 50px 30px;
+
+}
+.heading
+{
+    font-size: 20px;
+    margin:60px 0px;
+}
+.location
+{
+    display: flex;
+    margin-left: 100px;
+}
+.fas1
+{ display:flex;
+    justify-content: flex-start;
+    margin: 10px 30px;
+}
+.heading1
+{
+    font-size: 20px;
+    margin:20px 10px;
+}
+.icons
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    
+}
+
+.faq
+{
+  margin-top: 80px;
+  margin-left: 520px;
+  color: white;
+}
+.faq1
+{
+    margin-top: 80px;
+    margin-left: 180px;
+    color:white;
+}
+
